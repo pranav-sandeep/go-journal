@@ -2,7 +2,10 @@ module github.com/pranav-sandeep/go-journal
 
 go 1.26.3
 
+require github.com/nexidian/gocliselect v1.0.0
 
 require (
-	golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c // indirect
+	github.com/buger/goterm v1.0.3 // indirect
+	github.com/pkg/term v1.1.0 // indirect
+	golang.org/x/sys v0.0.0-20210331175145-43e1dd70ce54 // indirect
 )
